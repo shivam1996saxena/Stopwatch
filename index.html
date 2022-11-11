@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/digital-numbers" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+    <div class="left">
+    <div class="image-section">
+        <img src="/watch1.png" alt="watch">
+    </div>
+    <div class="timer">
+        <div class="clock">
+            <span class="main-timer" id="hrs">00</span>
+            <span class="colon">:</span>
+            <span class="main-timer" id="minutes">00</span>
+            <span class="colon">:</span>
+            <span class="main-timer" id="seconds">00</span>
+        </div>
+        <div class="nano">
+            <span class="mill-sec" id="mili-sec">00</span>
+        </div>
+    </div>
+    </div>
+    <div class="right">
+        <div class="btn-box">
+            <button class="btn" id="start">start</button>
+            <button class="btn" id="stop">stop</button>
+            <button class="btn" id="reset">reset</button>
+            <button class="btn" id="record">record</button>
+        </div>
+        <div class="record-data">
+            <P class="heading">Recorded-Data</P>
+            <ul class="record">
+
+            </ul>
+            <button class="btn clear" id="clear">Clear All</button>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
